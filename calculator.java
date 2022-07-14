@@ -1,3 +1,10 @@
+package Nikita.calculator;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class Main {
     static Scanner scanner = new Scanner(System.in);
     static int number;
@@ -97,7 +104,7 @@ public class Main {
                 System.out.println("Неверный знак операции - (введите * или /)");
                 break;
             case '*':
-// 159  При умножении строки на число выводит правильный ответ но впереди null ("a" * 5 = nullaaaaa)?
+
                 for (int u = 0; u < num; u++) {
                     result = result + num1;
                 }
